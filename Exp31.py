@@ -61,7 +61,7 @@ class Stack1Conf(object):
     ]
     test_predictors = [
         [
-            'weight','click_id',
+            'click_id',
             'ip','app','device','channel','os','hour',
             'ip_d_os_c_app','ip_cu_c','ip_da_cu_h','ip_cu_app',
             'ip_app_cu_os','ip_cu_d','ip_d_os_cu_app','ip_da_co','ip_app_co','ip_d_co','app_chl_co','ip_ch_co',
@@ -75,7 +75,7 @@ class Stack1Conf(object):
     ]
     train_predictors = [
         [
-            'weight','click_id',
+            'click_id',
             'ip','app','device','channel','os','hour',
             'ip_d_os_c_app','ip_cu_c','ip_da_cu_h','ip_cu_app',
             'ip_app_cu_os','ip_cu_d','ip_d_os_cu_app','ip_da_co','ip_app_co','ip_d_co','app_chl_co','ip_ch_co',

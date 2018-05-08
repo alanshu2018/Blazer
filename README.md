@@ -182,5 +182,5 @@ class Stack1Conf(object):
 * Submission results are saved in ../newdata/Output/Subm
 
 # Data for running
-Run FinalLgb*.py, it will generate some features based on train.csv, test.csv, test_supplement.csv,
+Run GenerateAllData.py, it will generate some features based on train.csv, test.csv, test_supplement.csv,
 and save it in directly ../newdata/
