@@ -202,7 +202,10 @@ class DataReader(object):
         indexes = indexes[:sampled_len]
         Xslice = self.X_tr[indexes]
         yslice = self.y_tr[indexes]
-        Wslice = self.weight_tr[indexes]
+        if self.weight_tr is not None:
+            Wslice = self.weight_tr[indexes]
+        else:
+            Wslice = None
 
         return Xslice[:,cols], yslice, Wslice
 
