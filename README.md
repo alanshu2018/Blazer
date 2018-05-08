@@ -105,8 +105,8 @@ some utils copy from (https://github.com/ChenglongChen/Kaggle_CrowdFlower)
 Most of the Ideas are inspired by this work.
 
 ## Others and unsorted (For backup only)
-preprocess ---- Some Data preprocess code
-other --- misc python code
+* preprocess ---- Some Data preprocess code
+* other --- misc python code
 
 # How to run
 ## Change settings
